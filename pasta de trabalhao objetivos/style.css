@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
 :root{
- --cor-de-fundo:var(--texto2)
- --texto1: #808330;
+ --cor-de-fundo:rgb(0, 0, 0);
+ --texto1: #b5c206;
  --texto2: red;
- --botao-ativo:rgb(116, 6, 6);
+ --botao-ativo:rgb(241, 0, 0);
  --botao-inativo: rgba(58,55,94,05);
  --texto-fundo:blue(13,0,156);
 }
@@ -49,10 +49,10 @@ body{
     color:rgb(0, 255, 106);
     justify-content:center;
     padding:1em;
-    font-size: 18px;
+    font-size: 20px;
     align-items: center;
     width: 70%;
-    text-align: center;
+    text-align:center;
 }
   .botao{
     display: flex;
@@ -63,9 +63,9 @@ body{
 .botao:last-child{
     border-radius: 10px 00;
 }
-.ativo{
+.botao.ativo{
     background:var(--botao-ativo);
-    border-bottom: 4px solid rgb(255, 0, 119);
+    border-bottom: 4px solid rgb(87, 4, 42);
     
 }
 .aba-texto{
@@ -73,3 +73,18 @@ body{
     padding: 20%;
     border-radius:0 0 60px 40px
 }
+.aba-conteudo.ativo{
+display: block;
+}
+.aba-conteudo{
+    display: none;
+}
+.aba-conteudo-titulo-principal{
+    font-size:70 px;
+    text-align: center;
+}
+.aba-conteudo-titulo-segundario{
+    color:var(--texto1) #b5c206;
+    text-transform: uppercase;
+}
+
