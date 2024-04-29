@@ -15,11 +15,11 @@ body{
 }
 .botao{
 
-    border-radius: 20%;
+    border-radius: 45%;
     text-align: center;
-    margin: 10px;
-    padding: 20px;
-    font-size: 15px;
+    margin: 25px;
+    padding: 70px;
+    font-size:45px;
     display: flex;
  text-align: center;
 }
@@ -40,7 +40,7 @@ body{
 .titulo-principal{
     text-align: left;
     width: 100%;
-    font-size: 36px;
+    font-size: 45px;
 }
 .botao{
     font-family:"lobster",sans-serif;
@@ -51,14 +51,14 @@ body{
     padding:1em;
     font-size: 20px;
     align-items: center;
-    width: 70%;
+    width: 115px;
     text-align:center;
 }
   .botao{
     display: flex;
 }
 .botao:first-child{
-    border-radius: 59px 000;
+    border-radius: 50px 000;
 }
 .botao:last-child{
     border-radius: 10px 00;
@@ -70,7 +70,7 @@ body{
 }
 .aba-texto{
     background-color:var(--texto-fundo);
-    padding: 20%;
+    padding: 15%;
     border-radius:0 0 60px 40px
 }
 .aba-conteudo.ativo{
@@ -80,7 +80,7 @@ display: block;
     display: none;
 }
 .aba-conteudo-titulo-principal{
-    font-size:70 px;
+    font-size:80 px;
     text-align: center;
 }
 .aba-conteudo-titulo-segundario{
