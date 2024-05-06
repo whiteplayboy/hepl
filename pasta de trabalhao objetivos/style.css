@@ -87,4 +87,10 @@ display: block;
     color:var(--texto1) #b5c206;
     text-transform: uppercase;
 }
+.contador{
+    font-size: 50px;
+    text-align: center;
+    padding: 1em;
+}
+
 
