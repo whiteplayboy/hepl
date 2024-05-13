@@ -13,13 +13,13 @@ body{
     color: var(--texto1);
     font-family:"metal mania",system-ui;
 }
-.botao{
-
-    border-radius: 45%;
+.botoes{
+ 
+    border-radius: 15%;
     text-align: center;
     margin: 25px;
-    padding: 70px;
-    font-size:45px;
+    padding: 1S0px;
+    font-size:15px;
     display: flex;
  text-align: center;
 }
@@ -45,7 +45,7 @@ body{
 .botao{
     font-family:"lobster",sans-serif;
     background-color: rgb(100, 96, 96);
-    display:flex;
+    display:center;
     color:rgb(0, 255, 106);
     justify-content:center;
     padding:1em;
@@ -55,10 +55,10 @@ body{
     text-align:center;
 }
   .botao{
-    display: flex;
+    display: center;
 }
 .botao:first-child{
-    border-radius: 50px 000;
+    border-radius: 10px 000;
 }
 .botao:last-child{
     border-radius: 10px 00;
@@ -92,5 +92,8 @@ display: block;
     text-align: center;
     padding: 1em;
 }
-
-
+.contador{
+font-size: 20px;
+text-align:center;
+padding:1 em;
+}
